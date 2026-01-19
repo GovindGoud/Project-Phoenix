@@ -1,3 +1,4 @@
 function calculatePrice(amount) {
-    return amount + 50;
+    const tax = amount * 0.18;
+    return amount + tax + 50;
 }
